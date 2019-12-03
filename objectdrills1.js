@@ -12,3 +12,16 @@ function createMyObject () {
 }
 
 console.log(createMyObject());
+
+let obj = {};
+
+function updateObject(obj) {
+    //let obj = {};
+    obj.foo = "foo";
+    obj.bar = "bar";
+    obj.bizz = "bizz";
+    obj.bang = "bang";
+    return obj;
+}
+
+console.log(updateObject(obj));
